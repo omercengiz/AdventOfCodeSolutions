@@ -16,5 +16,5 @@ def part1(numbers):
 def part2(numbers):
     return sum(numbers[i] > numbers[i-3] for i in range(3, len(numbers)))
 
-print("Part1:", part1(nums), "\nPart2:", part2(nums))
+print("Part1:", part1(numbers), "\nPart2:", part2(numbers))
 
